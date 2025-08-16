@@ -46,29 +46,29 @@
   from = "/go/comedero-petkit"
   to = "https://amzn.to/4xY7Z9A?tag=smarthomepro2-21"
   status = 301
-  headers = { Link = "<https://amzn.to/4xY7Z9A?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+  headers = { Link = "<https://amzn.to/4lt7Bnq?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 [[redirects]]
   from = "/go/comida-orijen"
-  to = "https://amzn.to/4mN8vB2?tag=smarthomepro2-21"
+  to = "https://amzn.to/3HEpjqf?tag=smarthomepro2-21"
   status = 301
   headers = { Link = "<https://amzn.to/4mN8vB2?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 [[redirects]]
   from = "/go/cama-gatos-k&h"
-  to = "https://amzn.to/4pR9sT5?tag=smarthomepro2-21"
+  to = "https://amzn.to/4mjCig5?tag=smarthomepro2-21"
   status = 301
   headers = { Link = "<https://amzn.to/4pR9sT5?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 [[redirects]]
   from = "/go/juguete-interactive-cat"
-  to = "https://amzn.to/4qV2uW8?tag=smarthomepro2-21"
+  to = "https://amzn.to/45T3ZGH?tag=smarthomepro2-21"
   status = 301
   headers = { Link = "<https://amzn.to/4qV2uW8?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 [[redirects]]
   from = "/go/collar-gps-tractive"
-  to = "https://amzn.to/4rX5yZ1?tag=smarthomepro2-21"
+  to = "https://amzn.to/3JcbpfA?tag=smarthomepro2-21"
   status = 301
   headers = { Link = "<https://amzn.to/4rX5yZ1?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
