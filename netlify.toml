@@ -1,0 +1,81 @@
+# ======================
+# REDIRECCIONES DE PÁGINAS
+# ======================
+
+[[redirects]]
+  from = "/mejor-comedero-2025"
+  to = "/mejor-comedero-2025.html"
+  status = 200
+
+[[redirects]]
+  from = "/comida-perro-alta-gama"
+  to = "/comida-perro-alta-gama.html"
+  status = 200
+
+[[redirects]]
+  from = "/camas-para-gatos"
+  to = "/camas-para-gatos.html"
+  status = 200
+
+[[redirects]]
+  from = "/juguetes-inteligentes"
+  to = "/juguetes-inteligentes.html"
+  status = 200
+
+# Páginas legales
+[[redirects]]
+  from = "/aviso-afiliacion"
+  to = "/aviso-afiliacion.html"
+  status = 200
+
+[[redirects]]
+  from = "/politica-privacidad"
+  to = "/politica-privacidad.html"
+  status = 200
+
+[[redirects]]
+  from = "/aviso-legal"
+  to = "/aviso-legal.html"
+  status = 200
+
+# ======================
+# ENMASCARAMIENTO DE AFILIADOS
+# ======================
+
+[[redirects]]
+  from = "/go/comedero-petkit"
+  to = "https://amzn.to/4xY7Z9A?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4xY7Z9A?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comida-orijen"
+  to = "https://amzn.to/4mN8vB2?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4mN8vB2?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/cama-gatos-k&h"
+  to = "https://amzn.to/4pR9sT5?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4pR9sT5?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/juguete-interactive-cat"
+  to = "https://amzn.to/4qV2uW8?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4qV2uW8?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/collar-gps-tractive"
+  to = "https://amzn.to/4rX5yZ1?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4rX5yZ1?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+# ======================
+# REDIRECCIÓN POR DEFECTO
+# ======================
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
