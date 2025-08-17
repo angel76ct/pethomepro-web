@@ -44,9 +44,9 @@
 
 [[redirects]]
   from = "/go/comedero-petkit"
-  to = "https://amzn.to/4xY7Z9A?tag=smarthomepro2-21"
+  to = "https://amzn.to/3Uxv780?tag=smarthomepro2-21"
   status = 301
-  headers = { Link = "<https://amzn.to/4xY7Z9A?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+  headers = { Link = "<https://amzn.to/3Uxv780?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 [[redirects]]
   from = "/go/comida-orijen"
