@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -48,6 +48,7 @@
       background: #0a0a0a;
       color: #e0e0e0;
       line-height: 1.8;
+      padding-top: 80px; /* Compensa el header fijo */
     }
     .container {
       max-width: 1200px;
@@ -96,7 +97,7 @@
     .hero {
       background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
       color: white;
-      padding: 12rem 0 4rem;
+      padding: 8rem 0 4rem;
       text-align: center;
     }
     .hero h1 {
@@ -119,30 +120,29 @@
       border-radius: 50px;
       text-decoration: none;
       font-weight: bold;
-      transition: transform 0.3s;
+      transition: all 0.3s ease;
     }
     .cta-button:hover {
       transform: scale(1.05);
     }
-    /* Deal of the Day - Diseño mejorado */
+    /* Deal of the Day */
     .deal-of-day {
       background: linear-gradient(135deg, #ffffff 0%, #fef5f5 100%);
-      margin: -2rem auto 4rem;
+      margin: 4rem auto;
       max-width: 900px;
       border-radius: 20px;
       box-shadow: 0 20px 40px rgba(255, 107, 107, 0.2);
       padding: 2.5rem;
       position: relative;
-      z-index: 3;
-      border: 3px solid #ff6b6b;
+      z-index: 2;
       text-align: center;
+      border: 3px solid #ff6b6b;
     }
     .deal-title {
       font-size: 2.2rem;
       color: #d63031;
       margin-bottom: 0.5rem;
       font-weight: 800;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.1);
     }
     .deal-description {
       font-size: 1.3rem;
@@ -157,7 +157,6 @@
       font-size: 1.4rem;
       font-weight: bold;
       color: #d63031;
-      text-shadow: 0 1px 1px rgba(0,0,0,0.1);
     }
     .btn-primary {
       display: inline-block;
@@ -174,7 +173,6 @@
     .btn-primary:hover {
       transform: translateY(-3px);
       box-shadow: 0 12px 25px rgba(255, 107, 107, 0.5);
-      color: white !important;
     }
     /* Articles Grid */
     .articles-grid {
@@ -227,9 +225,17 @@
     </div>
   </header>
 
+  <section class="hero">
+    <div class="container">
+      <h1>🐾 Los Mejores Productos para Perros y Gatos en 2025</h1>
+      <p>Guías honestas basadas en reseñas reales de Amazon. Sin filtros, sin publicidad engañosa. Solo lo que funciona.</p>
+      <a href="/mejor-comedero-2025" class="cta-button">🔍 Ver Guía Completa</a>
+    </div>
+  </section>
+
   <section class="deal-of-day">
     <div class="container">
-      <h2 class="deal-title">🎁 ¡Chollo del Día! Comedero Automático para Perros y Gatos</h2>
+      <h2 class="deal-title">🎁 ¡Chollo del Día! Comedero Automático para Perros</h2>
       <p class="deal-description">
         <i class="fas fa-video" style="color: #ff6b6b; margin-right: 8px;"></i>
         <strong>Programable, con cámara HD y control por app.</strong>
