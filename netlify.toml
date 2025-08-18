@@ -72,6 +72,42 @@
   status = 301
   headers = { Link = "<https://amzn.to/3JcbpfA?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
+# --- COMIDA PREMIUM PARA PERROS ---
+[[redirects]]
+  from = "/go/comida-orijen-perro"
+  to = "https:?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https:?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comida-acana-perro"
+  to = "https:?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https:?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+# --- COMIDA PREMIUM PARA GATOS ---
+[[redirects]]
+  from = "/go/comida-orijen-gato"
+  to = "https:?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https:?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comida-royal-canin-gato"
+  to = "https?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comida-acana-gato"
+  to = "https:?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https:?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+
+
+
+
 # ======================
 # REDIRECCIÓN POR DEFECTO
 # ======================
