@@ -141,14 +141,23 @@
       color: #ff6b6b;
     }
     .btn-primary {
-      background: linear-gradient(45deg, #ff6b6b, #ee5a24);
-      color: white;
-      padding: 12px 25px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
-      display: inline-block;
-    }
+  background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+  color: white !important;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 1.1em;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
+}
     /* Articles Grid */
     .articles-grid {
       display: grid;
