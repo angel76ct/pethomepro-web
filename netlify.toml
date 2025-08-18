@@ -41,13 +41,40 @@
 # ======================
 # ENMASCARAMIENTO DE AFILIADOS
 # ======================
-
+# --- COMEDEROS AUTOMÁTICOS ---
 [[redirects]]
   from = "/go/comedero-petkit"
   to = "https://amzn.to/3Uxv780?tag=smarthomepro2-21"
   status = 301
   headers = { Link = "<https://amzn.to/3Uxv780?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+  
+[[redirects]]
+  from = "/go/comedero-surefeed"
+  to = "https://amzn.to/4mN8vB2?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4mN8vB2?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
+[[redirects]]
+  from = "/go/comedero-wopet"
+  to = "https://amzn.to/4pR9sT5?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4pR9sT5?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comedero-petsafe"
+  to = "https://amzn.to/4qV2uW8?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4qV2uW8?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comedero-xiaomi"
+  to = "https://amzn.to/4rX5yZ1?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4rX5yZ1?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+  
+# ====================== 
+# ENMASCARAMIENTO DE AFILIADOS en construccion
 [[redirects]]
   from = "/go/comida-orijen"
   to = "https://amzn.to/3HEpjqf?tag=smarthomepro2-21"
@@ -71,6 +98,7 @@
   to = "https://amzn.to/3JcbpfA?tag=smarthomepro2-21"
   status = 301
   headers = { Link = "<https://amzn.to/3JcbpfA?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+# ====================== 
 
 # --- COMIDA PREMIUM PARA PERROS ---
 [[redirects]]
