@@ -75,34 +75,64 @@
 # --- COMIDA PREMIUM PARA PERROS ---
 [[redirects]]
   from = "/go/comida-orijen-perro"
-  to = "https:?tag=smarthomepro2-21"
+  to = "https://amzn.to/472tjLx?tag=smarthomepro2-21"
   status = 301
-  headers = { Link = "<https:?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+  headers = { Link = "<https://amzn.to/472tjLx?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 [[redirects]]
   from = "/go/comida-acana-perro"
-  to = "https:?tag=smarthomepro2-21"
+  to = "https://amzn.to/4fIibWy?tag=smarthomepro2-21"
   status = 301
-  headers = { Link = "<https:?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+  headers = { Link = "<https://amzn.to/4fIibWy?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comida-royal-canin-perro"
+  to = "https://amzn.to/3UzhODR?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/3UzhODR?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comida-wellness-perro"
+  to = "https://amzn.to/4fIiwIO?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4fIiwIO?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comida-hills-perro"
+  to = "https://amzn.to/4oCsL5v?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4oCsL5v?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 # --- COMIDA PREMIUM PARA GATOS ---
 [[redirects]]
   from = "/go/comida-orijen-gato"
-  to = "https:?tag=smarthomepro2-21"
+  to = "https://amzn.to/47BBPBj?tag=smarthomepro2-21"
   status = 301
-  headers = { Link = "<https:?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+  headers = { Link = "<https://amzn.to/47BBPBj?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 [[redirects]]
   from = "/go/comida-royal-canin-gato"
-  to = "https?tag=smarthomepro2-21"
+  to = "https://amzn.to/472XtOK?tag=smarthomepro2-21"
   status = 301
-  headers = { Link = "<https?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+  headers = { Link = "<https://amzn.to/472XtOK?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 [[redirects]]
   from = "/go/comida-acana-gato"
-  to = "https:?tag=smarthomepro2-21"
+  to = "https://amzn.to/3Uz1umM?tag=smarthomepro2-21"
   status = 301
-  headers = { Link = "<https:?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+  headers = { Link = "<https://amzn.to/3Uz1umM?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comida-proplan-gato"
+  to = "https://amzn.to/4lDEeiv?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4lDEeiv?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/comida-wellness-gato"
+  to = "https://amzn.to/4zB6IjI?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4zB6IjI?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 
 
