@@ -124,40 +124,56 @@
     .cta-button:hover {
       transform: scale(1.05);
     }
-    .deal-of-day {
-  background: white;
+    /* Deal of the Day - Diseño mejorado */
+.deal-of-day {
+  background: linear-gradient(135deg, #ffffff 0%, #fef5f5 100%);
   margin: -2rem auto 4rem;
   max-width: 900px;
   border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  box-shadow: 0 20px 40px rgba(255, 107, 107, 0.2);
   padding: 2.5rem;
   position: relative;
   z-index: 3;
   border: 3px solid #ff6b6b;
-  /* Fondo sutil */
-  background: linear-gradient(135deg, #ffffff 0%, #fef5f5 100%);
+  text-align: center;
+  /* Fondo sutil con borde rojo */
 }
-    .deal-title {
-      font-size: 2.2rem;
-      color: solid #ff6b6b;
-    }
-    .btn-primary {
+
+.deal-title {
+  font-size: 2.2rem;
+  color: #d63031;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.deal-description {
+  font-size: 1.2rem;
+  color: #2d3436;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.btn-primary {
+  display: inline-block;
   background: linear-gradient(45deg, #ff6b6b, #ee5a24);
   color: white !important;
-  padding: 12px 25px;
+  padding: 14px 30px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
-  display: inline-block;
   transition: all 0.3s ease;
   border: none;
-  font-size: 1.1em;
-  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+  font-size: 1.2em;
+  box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
+  transform: translateY(0);
 }
 
 .btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(255, 107, 107, 0.5);
+  color: white !important;
 }
     /* Articles Grid */
     .articles-grid {
