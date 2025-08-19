@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://pethomepro.netlify.app/sitemap.xml
+
+# Preferencias de rastreo
+Crawl-delay: 10
