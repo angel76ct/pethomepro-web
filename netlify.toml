@@ -162,7 +162,36 @@
   status = 301
   headers = { Link = "<https://amzn.to/4zB6IjI?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
+# --- CAMAS PARA GATOS ---
+[[redirects]]
+  from = "/go/cama-k&h"
+  to = "https://amzn.to/4oFTvC0?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4oFTvC0?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
+[[redirects]]
+  from = "/go/cama-petfusion"
+  to = "https://amzn.to/45DOEsj?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/45DOEsj?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/cama-túnel"
+  to = "https://amzn.to/3UAi1qw?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/3UAi1qw?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/cama-snoozer"
+  to = "https://amzn.to/463J1UL?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/463J1UL?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/cama-amazon-basics"
+  to = "https://amzn.to/4lyaX8Q?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4lyaX8Q?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 
 
