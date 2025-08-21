@@ -2,298 +2,285 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PetHomePro | Los Mejores Productos para Perros y Gatos 2025</title>
-  <meta name="description" content="Guías honestas y actualizadas sobre los mejores productos para perros y gatos. Basadas en reseñas reales de Amazon, precios y análisis técnico." />
-  <meta name="keywords" content="productos para perros, productos para gatos, comederos automáticos, camas para mascotas, juguetes inteligentes, comida premium perro, mejor collar GPS, smart pet 2025" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PetHomePro – Guías Honestas para Mascotas 2025</title>
+  <meta name="description" content="Guías basadas en reseñas reales de Amazon. Sin filtros, sin publicidad engañosa. Solo productos que funcionan para perros y gatos." />
+  <meta name="keywords" content="productos perro, comedero automático, comida premium perro, cama gato, review mascotas" />
   <meta name="author" content="PetHomePro" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="index, follow">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="PetHomePro | Los Mejores Productos para Perros y Gatos 2025" />
-  <meta property="og:description" content="Guías honestas y actualizadas sobre los mejores productos para perros y gatos." />
-  <meta property="og:image" content="https://pethomepro.netlify.app/pethomepro-2025.png" />
-  <meta property="og:url" content="https://pethomepro.netlify.app" />
-  <meta property="og:type" content="website" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="PetHomePro | Los Mejores Productos para Perros y Gatos 2025" />
-  <meta name="twitter:description" content="Guías honestas y actualizadas sobre los mejores productos para perros y gatos." />
-  <meta name="twitter:image" content="https://pethomepro.netlify.app/pethomepro-2025.png" />
-
-  <!-- Favicon -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-
-  <!-- Schema.org -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "PetHomePro",
-    "url": "https://pethomepro.netlify.app",
-    "description": "Las mejores guías y comparativas de productos para perros y gatos 2025."
-  }
-  </script>
-
+  <!-- Estilos modernos y limpios -->
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
+
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #0a0a0a;
-      color: #e0e0e0;
-      line-height: 1.8;
-      padding-top: 80px; /* Compensa el header fijo */
-    }
-    .container {
-      max-width: 1200px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background-color: #f9f9f9;
+      padding: 20px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding: 0 20px;
     }
-    /* Header */
-    header {
-      background: rgba(10, 10, 10, 0.95);
-      backdrop-filter: blur(20px);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 1000;
-    }
-    nav {
+
+    /* Navegación superior */
+    .top-nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 0;
+      padding: 15px 0;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 30px;
+      font-size: 0.95em;
     }
-    .logo {
-      font-size: 1.8rem;
-      font-weight: 800;
-      background: linear-gradient(135deg, #ff6b6b, #ee5a24);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+
+    .top-nav a {
+      color: #0077cc;
       text-decoration: none;
-    }
-    .nav-links {
-      display: flex;
-      list-style: none;
-      gap: 2rem;
-    }
-    .nav-links a {
-      text-decoration: none;
-      color: #ffffff;
+      margin-left: 20px;
       font-weight: 500;
     }
-    .nav-links a:hover {
-      color: #ff6b6b;
+
+    .top-nav a:hover {
+      text-decoration: underline;
     }
-    /* Hero */
-    .hero {
-      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
-      color: white;
-      padding: 8rem 0 4rem;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 4rem;
-      background: linear-gradient(135deg, #ffffff, #ff6b6b);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.4rem;
-      margin-bottom: 2rem;
-    }
-    .cta-button {
-      display: inline-block;
-      background: linear-gradient(45deg, #ff6b6b, #ee5a24);
-      color: white;
-      padding: 15px 40px;
-      border-radius: 50px;
-      text-decoration: none;
+
+    .top-nav .logo {
       font-weight: bold;
-      transition: all 0.3s ease;
+      font-size: 1.2em;
+      color: #1a3c60;
     }
-    .cta-button:hover {
-      transform: scale(1.05);
+
+    /* Header principal */
+    header {
+      text-align: center;
+      padding: 20px 0;
     }
-    /* Deal of the Day */
+
+    h1 {
+      font-size: 2.2em;
+      color: #1a3c60;
+      margin-bottom: 15px;
+      line-height: 1.3;
+    }
+
+    .tagline {
+      font-size: 1.1em;
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      font-weight: 500;
+    }
+
+    /* Chollo del día */
     .deal-of-day {
-      background: linear-gradient(135deg, #ffffff 0%, #fef5f5 100%);
-      margin: 4rem auto;
-      max-width: 900px;
-      border-radius: 20px;
-      box-shadow: 0 20px 40px rgba(255, 107, 107, 0.2);
-      padding: 2.5rem;
-      position: relative;
-      z-index: 2;
+      background: linear-gradient(135deg, #ff9900, #ff6b00);
+      color: white;
+      padding: 30px;
+      border-radius: 16px;
       text-align: center;
-      border: 3px solid #ff6b6b;
+      margin: 30px auto;
+      max-width: 900px;
+      box-shadow: 0 6px 20px rgba(255, 100, 0, 0.2);
     }
-    .deal-title {
-      font-size: 2.2rem;
-      color: #d63031;
-      margin-bottom: 0.5rem;
-      font-weight: 800;
+
+    .deal-of-day h2 {
+      font-size: 1.6em;
+      margin-bottom: 10px;
     }
-    .deal-description {
-      font-size: 1.3rem;
-      color: #2d3436;
-      margin: 15px 0;
-      line-height: 1.7;
-      font-weight: 500;
+
+    .deal-of-day p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      opacity: 0.95;
     }
-    .highlight-benefit {
-      display: block;
-      margin-top: 8px;
-      font-size: 1.4rem;
-      font-weight: bold;
-      color: #d63031;
-    }
+
     .btn-primary {
       display: inline-block;
-      background: linear-gradient(45deg, #ff6b6b, #ee5a24);
-      color: white !important;
-      padding: 14px 30px;
-      border-radius: 30px;
-      text-decoration: none;
+      background-color: white;
+      color: #ff9900;
       font-weight: bold;
+      padding: 12px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
       transition: all 0.3s ease;
-      font-size: 1.2em;
-      box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
     }
+
     .btn-primary:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 12px 25px rgba(255, 107, 107, 0.5);
+      background-color: #f0f0f0;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
     }
-    /* Articles Grid */
-    .articles-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 30px;
-      margin-top: 40px;
-    }
-    .article-card {
-      background: white;
-      border-radius: 20px;
-      padding: 30px;
-      box-shadow: 0 15px 35px rgba(0,0,0,0.1);
-    }
-    .article-icon {
-      font-size: 3em;
+
+    /* Sección de guías */
+    .guides-section {
       text-align: center;
-      padding: 30px 0;
-      background: rgba(255, 107, 107, 0.1);
+      margin: 50px 0;
     }
-    .article-card h3 {
-      color: #2c3e50;
-      margin: 15px 0;
+
+    .guides-section h2 {
+      font-size: 1.8em;
+      color: #1a3c60;
+      margin-bottom: 10px;
     }
-    .article-card p {
-      color: #666;
-      margin-bottom: 15px;
+
+    .guides {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin: 40px 0;
     }
-    /* Footer */
+
+    .guide-card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      width: 320px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .guide-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+
+    .guide-card h3 {
+      font-size: 1.3em;
+      color: #1a3c60;
+      margin-bottom: 12px;
+    }
+
+    .guide-card p {
+      color: #555;
+      font-size: 0.95em;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .btn-secondary {
+      display: inline-block;
+      background-color: #0077cc;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 0.95em;
+      transition: background 0.3s;
+    }
+
+    .btn-secondary:hover {
+      background-color: #005fa3;
+    }
+
+    /* Footer legal */
+    .legal-links {
+      text-align: center;
+      margin: 50px 0 30px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .legal-links a {
+      color: #0077cc;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .legal-links a:hover {
+      text-decoration: underline;
+    }
+
     footer {
       text-align: center;
-      padding: 40px 20px;
-      color: #95a5a6;
-      border-top: 1px solid #333;
-      margin-top: 60px;
+      margin-top: 20px;
+      padding: 20px;
+      color: #888;
+      font-size: 0.9em;
+      border-top: 1px solid #eee;
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <nav>
-        <a href="/" class="logo">PetHomePro</a>
-        <ul class="nav-links">
-          <li><a href="/mejor-comedero-2025">Comederos</a></li>
-          <li><a href="/comida-premium-mascotas-2025">Comida Premium</a></li>
-          <li><a href="/aviso-afiliacion">Aviso</a></li>
-        </ul>
-      </nav>
+
+  <!-- Navegación superior -->
+  <nav class="top-nav">
+    <a href="/" class="logo">PetHomePro</a>
+    <div>
+      <a href="/">Inicio</a>
+      <a href="/guia-comederos-automaticos.html">Comederos</a>
+      <a href="/comida-premium-mascotas-2025.html">Comida Premium</a>
+      <a href="/aviso">Aviso</a>
     </div>
+  </nav>
+
+  <!-- Header principal -->
+  <header>
+    <h1>🐾 Los Mejores Productos para Perros y Gatos en 2025</h1>
+    <p class="tagline">
+      Guías honestas basadas en reseñas reales de Amazon. Sin filtros, sin publicidad engañosa. Solo lo que funciona.
+    </p>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h1>🐾 Los Mejores Productos para Perros y Gatos en 2025</h1>
-      <p>Guías honestas basadas en reseñas reales de Amazon. Sin filtros, sin publicidad engañosa. Solo lo que funciona.</p>
-      <a href="/mejor-comedero-2025" class="cta-button">🔍 Ver Guía Completa</a>
-    </div>
-  </section>
-
+  <!-- Chollo del Día -->
   <section class="deal-of-day">
-    <div class="container">
-      <h2 class="deal-title">🎁 ¡Chollo del Día! Comedero Automático para Perros y Gatos</h2>
-      <p class="deal-description">
-        <i class="fas fa-video" style="color: #ff6b6b; margin-right: 8px;"></i>
-        <strong>Programable, con cámara HD y control por app.</strong>
-        <br>
-        <span class="highlight-benefit">Ideal para dueños ocupados o que viajan</span>
-      </p>
-      <a href="/go/comedero-petkit" target="_blank" rel="sponsored" class="btn-primary">🛒 Ver Oferta en Amazon</a>
-    </div>
+    <h2>🔥 ¡Chollo del Día!</h2>
+    <p><strong>Comedero Automático para Perros y Gatos</strong><br>
+       Programable, con cámara HD y control por app. <em>Ideal para dueños ocupados o que viajan</em>.</p>
+    <a href="/go/comedero-automático" class="btn-primary">👉 Ver Oferta</a>
   </section>
 
-  <section class="articles-section">
-    <div class="container">
-      <h2 style="text-align: center; color: #ff6b6b; margin-bottom: 40px; font-size: 2.5em;">📚 Guías y Reviews Especializadas</h2>
-      <div class="articles-grid">
-        <!-- Artículo 1 -->
-        <div class="article-card">
-          <div class="article-icon">🍽️</div>
-          <h3>Los 5 Mejores Comederos Automáticos para Perros 2025</h3>
-          <p>Comparativa basada en 3.000+ reseñas de Amazon. Análisis de durabilidad, app y facilidad de limpieza.</p>
-          <a href="/mejor-comedero-2025" style="background: linear-gradient(45deg, #ff6b6b, #ee5a24); color: white; padding: 10px 25px; border-radius: 30px; text-decoration: none; display: inline-block; margin-top: 10px;">
-            📖 Leer Guía
-          </a>
-        </div>
+  <!-- Guías y Reviews -->
+  <section class="guides-section">
+    <h2>📚 Guías y Reviews Especializadas</h2>
 
-        <!-- Artículo 2 -->
-        <div class="article-card">
-          <div class="article-icon">🍖</div>
-          <h3>Comida Premium para Mascotas: ¿Vale la pena?</h3>
-          <p>Análisis de marcas como Orijen, Acana y Royal Canin. Guía actualizada con precios y beneficios reales.</p>
-          <a href="/comida-premium-mascotas-2025" style="background: linear-gradient(45deg, #00b894, #00cec9); color: white; padding: 10px 25px; border-radius: 30px; text-decoration: none; display: inline-block; margin-top: 10px;">
-            📖 Leer Guía
-          </a>
-        </div>
-
-        <!-- Artículo 3 -->
-        <div class="article-card">
-          <div class="article-icon">🛏️</div>
-          <h3>Las Mejores Camas para Gatos en 2025</h3>
-          <p>Desde camas cálidas hasta modelos con túneles. Guía basada en reseñas reales y comportamiento felino.</p>
-          <a href="/camas-para-gatos" style="background: linear-gradient(45deg, #667eea, #764ba2); color: white; padding: 10px 25px; border-radius: 30px; text-decoration: none; display: inline-block; margin-top: 10px;">
-            📖 Leer Guía
-          </a>
-        </div>
+    <div class="guides">
+      
+      <!-- Guía 1 -->
+      <div class="guide-card">
+        <h3>Los 5 Mejores Comederos Automáticos para Perros 2025</h3>
+        <p>Comparativa basada en 3.000+ reseñas de Amazon. Análisis de durabilidad, app y facilidad de limpieza.</p>
+        <a href="/guia-comederos-automaticos.html" class="btn-secondary">Leer Guía</a>
       </div>
+
+      <!-- Guía 2 -->
+      <div class="guide-card">
+        <h3>Comida Premium para Perros: ¿Vale la pena?</h3>
+        <p>Análisis de marcas como Orijen, Acana y Royal Canin. Guía actualizada con precios y beneficios reales.</p>
+        <a href="/comida-premium-mascotas-2025.html" class="btn-secondary">Leer Guía</a>
+      </div>
+
+      <!-- Guía 3 -->
+      <div class="guide-card">
+        <h3>Las Mejores Camas para Gatos en 2025</h3>
+        <p>Desde camas cálidas hasta modelos con túneles. Guía basada en reseñas reales y comportamiento felino.</p>
+        <a href="/guia-camas-gatos.html" class="btn-secondary">Leer Guía</a>
+      </div>
+
     </div>
   </section>
 
+  <!-- Enlaces legales -->
+  <div class="legal-links">
+    <a href="/aviso-afiliacion">Aviso de Afiliación</a> |
+    <a href="/politica-privacidad">Política de Privacidad</a> |
+    <a href="/aviso-legal">Aviso Legal</a>
+  </div>
+
+  <!-- Footer -->
   <footer>
-    <div class="container">
-      <p>&copy; 2025 PetHomePro. Todos los derechos reservados.</p>
-      <p>
-        <a href="/aviso-afiliacion">Aviso de Afiliación</a> |
-        <a href="/politica-privacidad">Política de Privacidad</a> |
-        <a href="/aviso-legal">Aviso Legal</a>
-      </p>
-      <p>Este sitio participa en el Programa de Afiliados de Amazon EU. Ganamos comisiones por compras calificadas.</p>
-    </div>
+    <p>© 2025 PetHomePro. Enlaces de afiliado. Ganamos una comisión si compras (sin costo extra para ti).</p>
+    <p><em>Siempre consulta con tu veterinario antes de cambiar la dieta o rutina de tu mascota.</em></p>
   </footer>
+
 </body>
 </html>
 
