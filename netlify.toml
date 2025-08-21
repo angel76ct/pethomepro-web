@@ -158,9 +158,9 @@
 
 [[redirects]]
   from = "/go/comida-wellness-gato"
-  to = "https://amzn.to/4zB6IjI?tag=smarthomepro2-21"
+  to = "https://amzn.to/4mv5KQq?tag=smarthomepro2-21"
   status = 301
-  headers = { Link = "<https://amzn.to/4zB6IjI?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+  headers = { Link = "<https://amzn.to/4mv5KQq?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 # --- CAMAS PARA GATOS ---
 [[redirects]]
