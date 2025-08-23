@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -90,6 +90,23 @@
       margin: 30px 0;
       box-shadow: 0 10px 25px rgba(255, 107, 107, 0.1);
     }
+    .product-flex {
+      display: flex;
+      gap: 30px;
+      align-items: flex-start;
+    }
+    .product-content {
+      flex: 1;
+    }
+    .product-image {
+      flex: 0 0 auto;
+      text-align: center;
+    }
+    .product-image img {
+      max-width: 200px;
+      border-radius: 8px;
+      margin: 0;
+    }
     .product-title {
       font-size: 1.6em;
       margin: 0 0 15px 0;
@@ -147,6 +164,17 @@
       font-size: 2.5em;
       margin-bottom: 15px;
     }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .product-flex {
+        flex-direction: column;
+        text-align: center;
+      }
+      .product-image {
+        order: -1;
+      }
+    }
   </style>
 </head>
 <body>
@@ -171,264 +199,324 @@
 
     <!-- Producto 1 -->
     <div class="product-card">
-    <img src="https://m.media-amazon.com/images/I/71bcpNjVp7L._AC_SL1500_.jpg" alt="Orijen Original" style="max-width: 200px; border-radius: 8px; margin: 10px 0; float: right;">
-      <div class="product-title">1. Orijen Original – El Mejor en Nutrición</div>
-      <p>Hecho con 85% de ingredientes animales frescos. Ideal para perros activos y razas grandes.</p>
-      <div class="price">129,99€ <span class="old-price">159,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Alta digestibilidad</li>
-            <li>Pelaje más brillante</li>
-            <li>Sin cereales</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">1. Orijen Original – El Mejor en Nutrición</div>
+          <p>Hecho con 85% de ingredientes animales frescos. Ideal para perros activos y razas grandes.</p>
+          <div class="price">129,99€ <span class="old-price">159,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Alta digestibilidad</li>
+                <li>Pelaje más brillante</li>
+                <li>Sin cereales</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Precio elevado</li>
+                <li>Alto contenido calórico</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/comida-orijen-perro" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Precio elevado</li>
-            <li>Alto contenido calórico</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/71bcpNjVp7L._AC_SL1500_.jpg" alt="Orijen Original" />
         </div>
       </div>
-      <a href="/go/comida-orijen-perro" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 2 -->
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/71O8y8NMSAL._AC_SL1500_.jpg" alt="Acana Pacifica" style="max-width: 200px; border-radius: 8px; margin: 10px 0; float: right;">
-      <div class="product-title">2. Acana Pacifica – Ideal para Perros con Alergias</div>
-      <p>Basado en pescado fresco del Pacífico. Perfecto para perros con sensibilidad digestiva.</p>
-      <div class="price">99,99€ <span class="old-price">119,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Bajo en grasas</li>
-            <li>Ideal para alergias</li>
-            <li>Alta calidad del pescado</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">2. Acana Pacifica – Ideal para Perros con Alergias</div>
+          <p>Basado en pescado fresco del Pacífico. Perfecto para perros con sensibilidad digestiva.</p>
+          <div class="price">99,99€ <span class="old-price">119,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Bajo en grasas</li>
+                <li>Ideal para alergias</li>
+                <li>Alta calidad del pescado</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Olor fuerte</li>
+                <li>Menos popular en España</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/comida-acana-perro" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Olor fuerte</li>
-            <li>Menos popular en España</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/71O8y8NMSAL._AC_SL1500_.jpg" alt="Acana Pacifica" />
         </div>
       </div>
-      <a href="/go/comida-acana-perro" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 3 -->
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/51gqKVGRJFL._AC_SL1000_.jpg" alt="Royal Canin Medium Adult" style="max-width: 200px; border-radius: 8px; margin: 10px 0; float: right;"> 
-      <div class="product-title">3. Royal Canin Medium Adult – Para Razas Medianas</div>
-      <p>Fórmula científica para perros de 11-25 kg. Soporta la salud articular y digestiva.</p>
-      <div class="price">89,99€ <span class="old-price">109,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Recomendado por veterinarios</li>
-            <li>Salud articular reforzada</li>
-            <li>Alta palatabilidad</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">3. Royal Canin Medium Adult – Para Razas Medianas</div>
+          <p>Fórmula científica para perros de 11-25 kg. Soporta la salud articular y digestiva.</p>
+          <div class="price">89,99€ <span class="old-price">109,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Recomendado por veterinarios</li>
+                <li>Salud articular reforzada</li>
+                <li>Alta palatabilidad</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Contiene subproductos</li>
+                <li>Precio alto para tamaño pequeño</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/comida-royal-canin-perro" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Contiene subproductos</li>
-            <li>Precio alto para tamaño pequeño</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/51gqKVGRJFL._AC_SL1000_.jpg" alt="Royal Canin Medium Adult" />
         </div>
       </div>
-      <a href="/go/comida-royal-canin-perro" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 4 -->
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/71oOwx-UInL._AC_SL1500_.jpg" alt="Wellness Core Original" style="max-width: 200px; border-radius: 8px; margin: 10px 0; float: right;">  
-      <div class="product-title">4. Wellness Core Original – Alto Contenido Proteico</div>
-      <p>Con pollo como primer ingrediente. Ideal para perros con alto nivel de actividad.</p>
-      <div class="price">94,99€ <span class="old-price">114,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Alto contenido proteico</li>
-            <li>Sin granos</li>
-            <li>Buena digestibilidad</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">4. Wellness Core Original – Alto Contenido Proteico</div>
+          <p>Con pollo como primer ingrediente. Ideal para perros con alto nivel de actividad.</p>
+          <div class="price">94,99€ <span class="old-price">114,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Alto contenido proteico</li>
+                <li>Sin granos</li>
+                <li>Buena digestibilidad</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Puede causar sed excesiva</li>
+                <li>Disponible en pocos tamaños</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/comida-wellness-perro" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Puede causar sed excesiva</li>
-            <li>Disponible en pocos tamaños</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/71oOwx-UInL._AC_SL1500_.jpg" alt="Wellness Core Original" />
         </div>
       </div>
-      <a href="/go/comida-wellness-perro" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 5 -->
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/61j-j58lsJL._AC_SL1000_.jpg" alt="Hill's Science Plan Adult" style="max-width: 200px; border-radius: 8px; margin: 10px 0; float: right;">  
-      <div class="product-title">5. Hill's Science Plan Adult – Para Perros con Necesidades Específicas</div>
-      <p>Fórmula clínicamente probada para perros con sensibilidad digestiva o alergias.</p>
-      <div class="price">84,99€ <span class="old-price">99,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Clínicamente probado</li>
-            <li>Soporte digestivo</li>
-            <li>Disponible en veterinarias</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">5. Hill's Science Plan Adult – Para Perros con Necesidades Específicas</div>
+          <p>Fórmula clínicamente probada para perros con sensibilidad digestiva o alergias.</p>
+          <div class="price">84,99€ <span class="old-price">99,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Clínicamente probado</li>
+                <li>Soporte digestivo</li>
+                <li>Disponible en veterinarias</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Precio elevado</li>
+                <li>Menos natural que otras marcas</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/comida-hills-perro" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Precio elevado</li>
-            <li>Menos natural que otras marcas</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/61j-j58lsJL._AC_SL1000_.jpg" alt="Hill's Science Plan Adult" />
         </div>
       </div>
-      <a href="/go/comida-hills-perro" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <h2>Los 5 Mejores Alimentos Premium para Gatos 2025</h2>
 
     <!-- Producto 6 -->
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/811miJGobZL._AC_SL1500_.jpg" alt="Orijen Cat & Kitten" style="max-width: 200px; border-radius: 8px; margin: 10px 0; float: right;">   
-      <div class="product-title">1. Orijen Cat & Kitten – El Mejor para Gatos</div>
-      <p>85% de ingredientes animales, con pollo, pavo y hígado. Perfecto para gatos activos.</p>
-      <div class="price">119,99€ <span class="old-price">139,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Alto contenido proteico</li>
-            <li>Mejora la salud renal</li>
-            <li>Sin cereales</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">1. Orijen Cat & Kitten – El Mejor para Gatos</div>
+          <p>85% de ingredientes animales, con pollo, pavo y hígado. Perfecto para gatos activos.</p>
+          <div class="price">119,99€ <span class="old-price">139,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Alto contenido proteico</li>
+                <li>Mejora la salud renal</li>
+                <li>Sin cereales</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Muy caro</li>
+                <li>Algunos gatos no lo aceptan al principio</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/comida-orijen-gato" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Muy caro</li>
-            <li>Algunos gatos no lo aceptan al principio</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/811miJGobZL._AC_SL1500_.jpg" alt="Orijen Cat & Kitten" />
         </div>
       </div>
-      <a href="/go/comida-orijen-gato" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 7 -->
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/51JBt0XoGzL._AC_SL1000_.jpg" alt="Royal Canin Indoor 7+" style="max-width: 200px; border-radius: 8px; margin: 10px 0; float: right;">   
-      <div class="product-title">2. Royal Canin Indoor 7+ – Para Gatos Mayores</div>
-      <p>Diseñado para gatos de interior mayores de 7 años. Controla el peso y mejora la digestión.</p>
-      <div class="price">69,99€ <span class="old-price">84,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Recomendado por veterinarios</li>
-            <li>Control de bolas de pelo</li>
-            <li>Formulado por edad</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">2. Royal Canin Indoor 7+ – Para Gatos Mayores</div>
+          <p>Diseñado para gatos de interior mayores de 7 años. Controla el peso y mejora la digestión.</p>
+          <div class="price">69,99€ <span class="old-price">84,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Recomendado por veterinarios</li>
+                <li>Control de bolas de pelo</li>
+                <li>Formulado por edad</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Contiene subproductos</li>
+                <li>Precio alto para tamaño pequeño</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/comida-royal-canin-gato" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Contiene subproductos</li>
-            <li>Precio alto para tamaño pequeño</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/51JBt0XoGzL._AC_SL1000_.jpg" alt="Royal Canin Indoor 7+" />
         </div>
       </div>
-      <a href="/go/comida-royal-canin-gato" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 8 -->
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/610xdATB4ZL._AC_SL1200_.jpg" alt="Acana Grasslands" style="max-width: 200px; border-radius: 8px; margin: 10px 0; float: right;">   
-      <div class="product-title">3. Acana Grasslands – Para Gatos con Sensibilidad</div>
-      <p>Con pollo y huevo, sin cereales. Ideal para gatos con digestión delicada.</p>
-      <div class="price">89,99€ <span class="old-price">104,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Alto palatabilidad</li>
-            <li>Sin gluten</li>
-            <li>Mejora la energía</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">3. Acana Grasslands – Para Gatos con Sensibilidad</div>
+          <p>Con pollo y huevo, sin cereales. Ideal para gatos con digestión delicada.</p>
+          <div class="price">89,99€ <span class="old-price">104,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Alto palatabilidad</li>
+                <li>Sin gluten</li>
+                <li>Mejora la energía</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Disponible en pocos tamaños</li>
+                <li>Puede causar sed excesiva</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/comida-acana-gato" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Disponible en pocos tamaños</li>
-            <li>Puede causar sed excesiva</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/610xdATB4ZL._AC_SL1200_.jpg" alt="Acana Grasslands" />
         </div>
       </div>
-      <a href="/go/comida-acana-gato" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 9 -->
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/71-oLY0l-3L._AC_SL1500_.jpg" alt="Pro Plan Adult Urinary" style="max-width: 200px; border-radius: 8px; margin: 10px 0; float: right;">   
-      <div class="product-title">4. Pro Plan Adult Urinary – Para Gatos con Problemas Urinarios</div>
-      <p>Fórmula clínica para mantener la salud urinaria. Recomendado por veterinarios.</p>
-      <div class="price">74,99€ <span class="old-price">89,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Salud urinaria reforzada</li>
-            <li>Alta digestibilidad</li>
-            <li>Disponible en veterinarias</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">4. Pro Plan Adult Urinary – Para Gatos con Problemas Urinarios</div>
+          <p>Fórmula clínica para mantener la salud urinaria. Recomendado por veterinarios.</p>
+          <div class="price">74,99€ <span class="old-price">89,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Salud urinaria reforzada</li>
+                <li>Alta digestibilidad</li>
+                <li>Disponible en veterinarias</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Precio elevado</li>
+                <li>Menos natural que otras marcas</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/comida-proplan-gato" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Precio elevado</li>
-            <li>Menos natural que otras marcas</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/71-oLY0l-3L._AC_SL1500_.jpg" alt="Pro Plan Adult Urinary" />
         </div>
       </div>
-      <a href="/go/comida-proplan-gato" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 10 -->
     <div class="product-card">
-      <img src="https://m.media-amazon.com/images/I/71uKQEo3oaL._AC_SL1500_.jpg" alt="Wellness CORE Natural" style="max-width: 200px; border-radius: 8px; margin: 10px 0; float: right;">   
-      <div class="product-title">5. Wellness CORE Natural – Alto Contenido Proteico</div>
-      <p>Con pollo y huevo, sin granos. Ideal para gatos carnívoros y activos.</p>
-      <div class="price">79,99€ <span class="old-price">94,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Alto contenido proteico</li>
-            <li>Sin granos</li>
-            <li>Mejora el pelaje</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">5. Wellness CORE Natural – Alto Contenido Proteico</div>
+          <p>Con pollo y huevo, sin granos. Ideal para gatos carnívoros y activos.</p>
+          <div class="price">79,99€ <span class="old-price">94,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Alto contenido proteico</li>
+                <li>Sin granos</li>
+                <li>Mejora el pelaje</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Precio alto</li>
+                <li>Puede causar sed excesiva</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/comida-wellness-gato" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Precio alto</li>
-            <li>Puede causar sed excesiva</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/71uKQEo3oaL._AC_SL1500_.jpg" alt="Wellness CORE Natural" />
         </div>
       </div>
-      <a href="/go/comida-wellness-gato" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <h2>Consejo de Experto</h2>
