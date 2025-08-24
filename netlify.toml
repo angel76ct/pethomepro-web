@@ -192,7 +192,36 @@
   to = "https://amzn.to/4lyaX8Q?tag=smarthomepro2-21"
   status = 301
   headers = { Link = "<https://amzn.to/4lyaX8Q?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+# --- JUGUETES INTELIGENTES ---
+[[redirects]]
+  from = "/go/juguete-petsafe-ball"
+  to = "https://amzn.to/4xY7Z9A?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4xY7Z9A?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
+[[redirects]]
+  from = "/go/juguete-frolcat"
+  to = "https://amzn.to/4mN8vB2?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4mN8vB2?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/juguete-ifetch"
+  to = "https://amzn.to/4pR9sT5?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4pR9sT5?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/juguete-petcube"
+  to = "https://amzn.to/4qV2uW8?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4qV2uW8?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+
+[[redirects]]
+  from = "/go/juguete-catit"
+  to = "https://amzn.to/4rX5yZ1?tag=smarthomepro2-21"
+  status = 301
+  headers = { Link = "<https://amzn.to/4rX5yZ1?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 
 # ======================
