@@ -200,10 +200,10 @@
   headers = { Link = "<https://amzn.to/4lOASJv?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 [[redirects]]
-  from = "/go/juguete-frolcat"
-  to = "https://amzn.to/4mN8vB2?tag=smarthomepro2-21"
+  from = "/go/juguete-pawaboo"
+  to = "https://amzn.to/41lZiTr?tag=smarthomepro2-21"
   status = 301
-  headers = { Link = "<https://amzn.to/4mN8vB2?tag=smarthomepro2-21>; rel=\"sponsored\"" }
+  headers = { Link = "<https://amzn.to/41lZiTr?tag=smarthomepro2-21>; rel=\"sponsored\"" }
 
 [[redirects]]
   from = "/go/juguete-ifetch"
