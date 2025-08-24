@@ -18,8 +18,8 @@
   status = 200
 
 [[redirects]]
-  from = "/juguetes-inteligentes"
-  to = "/juguetes-inteligentes.html"
+  from = "/juguetes-inteligentes-mascotas-2025"
+  to = "/juguetes-inteligentes-mascotas-2025.html"
   status = 200
 
 # Páginas legales
