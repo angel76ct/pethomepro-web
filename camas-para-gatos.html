@@ -95,6 +95,23 @@
       margin: 30px 0;
       box-shadow: 0 10px 25px rgba(255, 107, 107, 0.1);
     }
+    .product-flex {
+      display: flex;
+      gap: 30px;
+      align-items: flex-start;
+    }
+    .product-content {
+      flex: 1;
+    }
+    .product-image {
+      flex: 0 0 auto;
+      text-align: center;
+    }
+    .product-image img {
+      max-width: 200px;
+      border-radius: 8px;
+      margin: 0;
+    }
     .product-title {
       font-size: 1.6em;
       margin: 0 0 15px 0;
@@ -152,6 +169,17 @@
       font-size: 2.5em;
       margin-bottom: 15px;
     }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .product-flex {
+        flex-direction: column;
+        text-align: center;
+      }
+      .product-image {
+        order: -1;
+      }
+    }
   </style>
 </head>
 <body>
@@ -175,127 +203,162 @@
 
     <!-- Producto 1 -->
     <div class="product-card">
-      <div class="product-title">1. K&H Pet Products - Cama Caliente Self-Warming</div>
-      <p>Con tecnología de auto-calentamiento. Ideal para gatos que duermen en suelos fríos.</p>
-      <div class="price">69,99€ <span class="old-price">89,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Calienta sin electricidad</li>
-            <li>Fácil de limpiar</li>
-            <li>Resistente a mordeduras</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">1. K&H Pet Products - Cama Caliente Self-Warming</div>
+          <p>Con tecnología de auto-calentamiento. Ideal para gatos que duermen en suelos fríos.</p>
+          <div class="price">69,99€ <span class="old-price">89,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Calienta sin electricidad</li>
+                <li>Fácil de limpiar</li>
+                <li>Resistente a mordeduras</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>No apta para exteriores</li>
+                <li>Puede desgastarse con uso intensivo</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/cama-k&h" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>No apta para exteriores</li>
-            <li>Puede desgastarse con uso intensivo</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/71VvntDcVzL._AC_SL1500_.jpg" alt="K&H Pet Products - Cama Caliente Self-Warming" />
         </div>
       </div>
-      <a href="/go/cama-k&h" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 2 -->
     <div class="product-card">
-      <div class="product-title">2. PetFusion Lounge - Cama de Lujo con Rascador</div>
-      <p>Diseño premium con superficie de sisal y cojín extra cómodo. Ideal para hogares modernos.</p>
-      <div class="price">89,99€ <span class="old-price">119,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Diseño elegante</li>
-            <li>Doble función: cama + rascador</li>
-            <li>Cojín extraíble y lavable</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">2. PetFusion Lounge - Cama de Lujo con Rascador</div>
+          <p>Diseño premium con superficie de sisal y cojín extra cómodo. Ideal para hogares modernos.</p>
+          <div class="price">89,99€ <span class="old-price">119,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Diseño elegante</li>
+                <li>Doble función: cama + rascador</li>
+                <li>Cojín extraíble y lavable</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Precio elevado</li>
+                <li>Requiere ensamblaje</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/cama-petfusion" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Precio elevado</li>
-            <li>Requiere ensamblaje</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/81+2In7z-5L._AC_SL1500_.jpg" alt="PetFusion Lounge - Cama de Lujo con Rascador" />
         </div>
       </div>
-      <a href="/go/cama-petfusion" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 3 -->
     <div class="product-card">
-      <div class="product-title">3. MidWest Homes - Cama con Túnel y Juguetes</div>
-      <p>Perfecta para gatos curiosos. Incluye túnel y pelotas colgantes.</p>
-      <div class="price">59,99€ <span class="old-price">74,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Estimula el juego</li>
-            <li>Portátil y plegable</li>
-            <li>Perfecta para gatos jóvenes</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">3. MidWest Homes - Cama con Túnel y Juguetes</div>
+          <p>Perfecta para gatos curiosos. Incluye túnel y pelotas colgantes.</p>
+          <div class="price">59,99€ <span class="old-price">74,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Estimula el juego</li>
+                <li>Portátil y plegable</li>
+                <li>Perfecta para gatos jóvenes</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>La cama es pequeña</li>
+                <li>Los juguetes pueden romperse</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/cama-túnel" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>La cama es pequeña</li>
-            <li>Los juguetes pueden romperse</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/61o3sI2UMmL._AC_SL1500_.jpg" alt="MidWest Homes - Cama con Túnel y Juguetes" />
         </div>
       </div>
-      <a href="/go/cama-túnel" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 4 -->
     <div class="product-card">
-      <div class="product-title">4. Snoozer Cozy Cave - Cama Tipo Guarida</div>
-      <p>Diseño en forma de cueva. Ideal para gatos que buscan seguridad y oscuridad.</p>
-      <div class="price">74,99€ <span class="old-price">94,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Proporciona sensación de seguridad</li>
-            <li>Alta comodidad</li>
-            <li>Resistente a arañazos</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">4. CATISM - Cama Tipo Guarida</div>
+          <p>Diseño en forma de cueva. Ideal para gatos que buscan seguridad y oscuridad.</p>
+          <div class="price">74,99€ <span class="old-price">94,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Proporciona sensación de seguridad</li>
+                <li>Alta comodidad</li>
+                <li>Resistente a arañazos</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Algunos gatos no entran</li>
+                <li>Requiere limpieza manual</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/cama-snoozer" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Algunos gatos no entran</li>
-            <li>Requiere limpieza manual</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/815JV9S4BOL._AC_SL1500_.jpg" alt="Snoozer Cozy Cave - Cama Tipo Guarida" />
         </div>
       </div>
-      <a href="/go/cama-snoozer" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <!-- Producto 5 -->
     <div class="product-card">
-      <div class="product-title">5. Amazon Basics - Cama Redonda de Lujo</div>
-      <p>Relación calidad-precio insuperable. Ideal para cualquier hogar.</p>
-      <div class="price">39,99€ <span class="old-price">49,99€</span></div>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ PROS</h4>
-          <ul>
-            <li>Precio muy competitivo</li>
-            <li>Cojín extra grueso</li>
-            <li>Disponible en varios tamaños</li>
-          </ul>
+      <div class="product-flex">
+        <div class="product-content">
+          <div class="product-title">5. Amazon Basics - Cama Redonda de Lujo</div>
+          <p>Relación calidad-precio insuperable. Ideal para cualquier hogar.</p>
+          <div class="price">39,99€ <span class="old-price">49,99€</span></div>
+          <div class="pros-cons">
+            <div class="pros">
+              <h4>✅ PROS</h4>
+              <ul>
+                <li>Precio muy competitivo</li>
+                <li>Cojín extra grueso</li>
+                <li>Disponible en varios tamaños</li>
+              </ul>
+            </div>
+            <div class="cons">
+              <h4>❌ CONTRAS</h4>
+              <ul>
+                <li>Material menos premium</li>
+                <li>Se ensucia más rápido</li>
+              </ul>
+            </div>
+          </div>
+          <a href="/go/cama-amazon-basics" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
         </div>
-        <div class="cons">
-          <h4>❌ CONTRAS</h4>
-          <ul>
-            <li>Material menos premium</li>
-            <li>Se ensucia más rápido</li>
-          </ul>
+        <div class="product-image">
+          <img src="https://m.media-amazon.com/images/I/81UeK1rPnkL._AC_SL1500_.jpg" alt="Amazon Basics - Cama Redonda de Lujo" />
         </div>
       </div>
-      <a href="/go/cama-amazon-basics" target="_blank" rel="sponsored" class="btn">🛒 Ver en Amazon</a>
     </div>
 
     <h2>Consejo de Experto</h2>
